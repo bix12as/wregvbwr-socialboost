@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODERX - Yoco Link Payment</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212; /* Dark mode background color */
+      color: #f4f4f4; /* Text color */
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #1b1b1b; /* Darker container background color */
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .container:hover {
+      transform: scale(1.01); /* Slight hover effect */
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #00aaff;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    p {
+      color: #ddd;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 15px;
+      padding-left: 25px;
+      position: relative;
+      color: #ccc;
+      font-size: 1.1rem;
+    }
+
+    li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #00aaff;
+      font-weight: bold;
+    }
+
+    li strong {
+      color: #00aaff;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 20px;
+      margin-top: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .note {
+      font-style: italic;
+      color: #ffcc00;
+      margin-top: 15px;
+      padding: 15px;
+      background-color: rgba(255, 204, 0, 0.1);
+      border-left: 5px solid #ffcc00;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="why-yoco">
+      <h2>Why CODERX Chooses Yoco Link Payment</h2>
+      <p>Yoco Link payment offers a seamless and secure way for you to accept credit card payments online. Here's why we choose Yoco:</p>
+      <ul>
+        <li><strong>Easy Integration:</strong> Yoco provides simple integration options, allowing us to quickly set up online payments without hassle.</li>
+        <li><strong>Secure Transactions:</strong> With Yoco, your payment information is encrypted and securely processed, ensuring the safety of your sensitive data.</li>
+        <li><strong>Fast and Reliable:</strong> Yoco offers fast transaction processing, allowing you to complete your purchase swiftly and with confidence.</li>
+        <li><strong>Hassle-free Refunds:</strong> In the rare event that a refund is needed, Yoco streamlines the process, making it easy for us to issue refunds promptly.</li>
+      </ul>
+      <div class="note">
+        <strong>NOTE:</strong> You don’t need to have the Yoco app to make payments. Simply receive the payment link, enter your bank card info, and you're all set!
+      </div>
+      <p>Experience the convenience and reliability of Yoco Link payment today!</p>
+    </section>
+
+    <div class="gallery">
+      <img src="yoco/2.jpg" alt="Yoco Payment Image 1">
+      <img src="yoco/1.jpg" alt="Yoco Payment Image 2">
+      <img src="yoco/Once You.jpg" alt="Yoco Payment Image 3">
+      <!-- Add more image tags for your gallery as needed -->
+    </div>
+  </div>
+</body>
+</html>
